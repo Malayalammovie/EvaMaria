@@ -41,7 +41,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⭕️Join Main Channel⭕️', url=f'https://t.me/tamil_rockers_mallu')
+            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')')
             ],[
             InlineKeyboardButton('🔍 Search in our Group🔘', url=f'https://t.me/mmf_chat').
             InlineKeyboardButton('⭕️Join MMF SERIES⭕️', url='https://t.me/MMF_series')
